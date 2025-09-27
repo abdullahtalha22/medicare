@@ -1,0 +1,61 @@
+name: medi_care_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_cube: ^0.1.1
+  lottie: ^2.7.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.2.0
+  google_sign_in: ^6.2.1
+  flutter_secure_storage: ^8.0.0
+  cloud_firestore: ^5.6.12
+  google_fonts: ^6.2.1
+  google_nav_bar: ^5.0.6
+  shared_preferences: ^2.2.2
+  provider: ^6.0.5
+  material_design_icons_flutter: ^7.0.7296
+  intl: ^0.19.0
+  fl_chart: ^0.69.0
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.11.0
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+
+flutter:
+  assets:
+    - assets/animations/medicine.json
+    - assets/animations/onboard1.json
+    - assets/animations/onboard2.json
+    - assets/animations/onboard3.json
+    - assets/animations/google.json
+    - assets/animations/home_header.json
+    - assets/animations/card_pill.json
+    - assets/animations/card_calendar.json
+    - assets/animations/card_logs.json
+    - assets/animations/card_insights.json
+    - assets/logo.png
+
+  uses-material-design: true
+
